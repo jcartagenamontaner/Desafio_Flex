@@ -1,8 +1,6 @@
 body{
     border: 0;
     margin: 0;
-   
-
 }
 
 
@@ -24,7 +22,8 @@ body{
 
 #Profile{
     display: flex;
-
+    justify-content: space-between;
+    align-items: center;
 }
 
 #ChatNew{
