@@ -6,6 +6,7 @@
     <title>Document</title>
     <!-- Start link -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/af9671a324.js" crossorigin="anonymous"></script>
     <!-- End link -->
 </head>
 <body>
@@ -16,17 +17,29 @@
     <div class="Contactos">
         <div class="boxes">
     
-            <div class="box">
+            <div class="box" id="Profile">
                 <img src="./assets/img/maria.jpg" width="75px" alt="">
-                
-                    <h3>Maria</h3>
-                    <h5>Maria</h5>       
-             
+                    
+                    <div class="Messange_Menu">
+                        <div>
+                            <p>Maria</p>
+                            <i class="bi bi-list"></i>  
+
+                        </div>
+
+                        <div>
+
+                            <i class="fa-regular fa-message" style="color: #828485;"></i>
+                            <i class="fa-solid fa-bars" style="color: #828485;"></i>
+                        </div>
+    
+                    </div>
             </div>
     
-            <div class="box">
-                
-                <p>Nuevo Chat</p>
+            <div class="box" id="ChatNew" >
+                <button class="BotonNuevoChat" >Nuevo Chat</button>
+             
+               
             </div>
             
             <div class="box">
@@ -69,13 +82,14 @@
     </div>
     <div class="principal"> 
         <div class="contenido_central">
-            <img src="./assets/img/hand.png" width="500px" alt="">
+            <img src="./assets/img/hand.png" width="250px" alt="">
             <h1>Comienza el Networking</h1>
             <p>Presiona el botón <strong>"Nuevo chat"</strong> para comenzar a crear nuevas <br/> redes de contacto para tu empresa o emprendimiento</p>
+            <i class="bi bi-list"></i>   
         </div>
 
     </div>
 </section>
-
+<!-- scripts -->
 </body>
 </html>
